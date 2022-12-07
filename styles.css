@@ -28,6 +28,13 @@ body {
   overflow:hidden;
 }
 
+#pic {
+  display: flex;
+  max-width: 50%;
+  height: auto;
+  
+}
+
 .message{
   background:$light;
   box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.31);
@@ -35,6 +42,7 @@ body {
   overflow:hidden;
   display:flex;
   flex-wrap:wrap;
+  justify-content: space-around;
   max-width:40em;
   margin:2em auto;
   padding: 4em;

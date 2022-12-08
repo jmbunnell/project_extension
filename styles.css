@@ -40,7 +40,14 @@ body {
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
+  background-image: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20190314004249/sample-image2.png');
+            background-size: cover;
+            width: 300px;
+            height: 200px;
+            font-size: 2rem;
 }
+
 
 #pic {
   display: flex;

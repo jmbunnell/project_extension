@@ -6,6 +6,7 @@ g.setAttribute("id", "Div1");
 // creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
+button.setAttrubute("onclick", "message()");
                  
 // creating text to be
 //displayed on button
@@ -38,3 +39,6 @@ var link = document.createElement('link');
         head.appendChild(link);
 
 // on click, produce message in browser
+function message() {
+	document.getElementById("")
+}

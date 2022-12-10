@@ -1,25 +1,26 @@
 //var hello = alert('"What we are reluctant to touch often seems the very fabric of our salvation" - White Noise By Don Delillo');
+//g = document.createElement('div');
+//g.setAttribute("id", "Div1");
 
-g = document.createElement('div');
-g.setAttribute("id", "Div1");
+// On click, produce message in browser
+function message() {
+	var message = document.createTextNode("Message displays here!");
+        return button.appendChild(message);
+};
 
-// creating button element
+// Creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
-button.setAttrubute("onclick", "message()");
+button.setAttribute("onclick", "message()");
                  
-// creating text to be
-//displayed on button
+// Creating text to be displayed on button
 var text = document.createTextNode("Click Me!");
-
                  
-// appending text to button
+// Appending text to button
 button.appendChild(text);
                  
-// appending button to div
+// Appending button to div
 document.body.append(button);
-
-// on click produce text with quote
 
 // Get HTML head element
 var head = document.getElementsByTagName('HEAD')[0];
@@ -27,7 +28,6 @@ var head = document.getElementsByTagName('HEAD')[0];
  // Create new link Element
 var link = document.createElement('link');
  
-
         // set the attributes for link element
         link.rel = 'stylesheet';
      
@@ -36,9 +36,6 @@ var link = document.createElement('link');
         link.href = './styles.css';
  
         // Append link element to HTML head
-        head.appendChild(link);
+        //head.append(link);
 
-// on click, produce message in browser
-function message() {
-	document.getElementById("")
-}
+

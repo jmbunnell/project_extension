@@ -5,7 +5,7 @@
 // Creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
-button.setAttribute("onclick", "alert('fuck')");
+button.setAttribute("onclick", "alert('What we are reluctant to touch often seems the very fabric of our salvation - White Noise by Don DeLillo')");
 
 // On click, produce message in browser
 function message() {

@@ -2,16 +2,17 @@
 //g = document.createElement('div');
 //g.setAttribute("id", "Div1");
 
-// On click, produce message in browser
-function message() {
-	var message = document.createTextNode("Message displays here!");
-        return button.appendChild(message);
-};
-
 // Creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
-button.setAttribute("onclick", "message()");
+button.setAttribute("onclick", "alert('fuck')");
+
+// On click, produce message in browser
+function message() {
+	var message = document.createTextNode("Message displays here!");
+        button.appendChild(message);
+        return;
+};
                  
 // Creating text to be displayed on button
 var text = document.createTextNode("Click Me!");

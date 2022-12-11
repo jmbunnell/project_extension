@@ -9,9 +9,13 @@ button.setAttribute("onclick", "alert('What we are reluctant to touch often seem
 
 // On click, produce message in browser
 function message() {
-	var message = document.createTextNode("Message displays here!");
-        button.appendChild(message);
-        return;
+	var alert = document.createElement('DIV');
+        alert.setAttribute("class", "alert");
+        var span = document.createElement('SPAN');
+        span.setAttribute("class", "closebtn");
+        alert.appendChild(span);
+        var text = 'hey';
+        return alert.append(text);
 };
                  
 // Creating text to be displayed on button
@@ -19,6 +23,20 @@ var text = document.createTextNode("Click Me!");
                  
 // Appending text to button
 button.appendChild(text);
+
+// Create own alert box
+var alert = document.createElement('DIV');
+alert.setAttribute("class", "alert");
+var span = document.createElement('SPAN');
+span.setAttribute("class", "closebtn");
+alert.appendChild(span);
+var text = 'hey';
+alert.append(text);
+
+//<div class="alert">
+  //<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  //<strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+//</div>
                  
 // Appending button to div
 document.body.append(button);

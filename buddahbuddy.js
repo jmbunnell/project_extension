@@ -2,19 +2,13 @@
 //g = document.createElement('div');
 //g.setAttribute("id", "Div1");
 
-function fun() {
-        document.getElementById("button").innerHTML = "Welcome to the javaTpoint.com";
-        document.getElementById("button").style.color = "blue";
-        document.getElementById("button").style.backgroundColor = "yellow";
-        document.getElementById("button").style.fontSize = "25px";
-        document.getElementById("button").style.border = "4px solid red"; 
-        }
+         
 
 // Creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
 //button.setAttribute("onclick", "alert('What we are reluctant to touch often seems the very fabric of our salvation - White Noise by Don DeLillo')");
-button.setAttribute("onclick", "fun()");
+button.setAttribute("onclick", "location.href='./buddahbuddy.html'");
 
 // On click, produce message in browser
 function message() {
@@ -35,13 +29,14 @@ var text = document.createTextNode("Click Me!");
 button.appendChild(text);
 
 // Create own alert box
+/*
 var alert = document.createElement('DIV');
 alert.setAttribute("class", "alert");
 var span = document.createElement('SPAN');
 span.setAttribute("class", "closebtn");
 alert.appendChild(span);
 var text = 'hey';
-alert.append(text);
+alert.append(text);*/
 
                  
 // Appending button to div
@@ -58,9 +53,9 @@ var link = document.createElement('link');
      
         link.type = 'text/css';
      
-        link.href = './styles.css';
+        link.href = 'buddahbuddy.js';
  
         // Append link element to HTML head
-        //head.append(link);
+        head.append(link);
 
 

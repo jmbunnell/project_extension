@@ -33,10 +33,6 @@ alert.appendChild(span);
 var text = 'hey';
 alert.append(text);
 
-//<div class="alert">
-  //<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  //<strong>Danger!</strong> Indicates a dangerous or potentially negative action.
-//</div>
                  
 // Appending button to div
 document.body.append(button);

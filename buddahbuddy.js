@@ -1,4 +1,4 @@
-
+// SOme commenents
 // Creating button element
 var button = document.createElement('BUTTON');
 button.setAttribute("id", "button");
